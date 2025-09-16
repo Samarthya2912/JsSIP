@@ -13564,6 +13564,9 @@ module.exports = {
   },
   get version() {
     return pkg.version;
+  },
+  get bruh() {
+    return 'sam';
   }
 };
 },{"../package.json":40,"./Constants":2,"./Exceptions":6,"./Grammar":7,"./NameAddrHeader":11,"./RTCSession":14,"./UA":26,"./URI":27,"./Utils":28,"./WebSocketInterface":29,"debug":32}],9:[function(require,module,exports){
