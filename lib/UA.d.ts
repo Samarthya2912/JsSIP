@@ -8,6 +8,7 @@ import {Registrator} from './Registrator'
 import {URI} from './URI'
 import {causes} from './Constants'
 
+
 export interface UnRegisterOptions {
   all?: boolean;
 }
